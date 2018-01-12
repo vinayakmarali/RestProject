@@ -19,7 +19,7 @@ import com.todo.model.ToDoDao;
 @RestController
 public class ToDoController {
 
-	private static long counter = 2;
+	private static long counter = 0;
 
 	@RequestMapping(value = "/todo/all", method = RequestMethod.GET)
 	public Collection<ToDo> getAll() {
